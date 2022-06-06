@@ -1,7 +1,7 @@
 import React from 'react';
+import Creditcard from '../creditcard/CreditCard';
 // import {Template} from "./components/Management/Template;"
 import "./Order.css"
-// import {Payments} from "/Users/tenycemelrose/my-app/pi/src/components/creditcard/Payments.js"
 
 const Order = () => {
 //     const [orderItem, setOrderItem] = useState("");
@@ -42,8 +42,17 @@ const Order = () => {
   <div className="grid-item">about this menu item</div>
   <div className="grid-item">about this menu item</div>
   <div className="grid-item">about this menu item</div>
+  <div></div>
+  {/* <Button onClick={Creditcard} type='pay now'>CreditCard</Button> */}
 </div>
-          </div>
+</div>
+
+// {/* <Button onClick={Creditcard} type='pay now'>CreditCard</Button>
+
+// <Button variant="text">Text</Button>
+// <Button variant="contained">Contained</Button>
+// <Button variant="outlined">Outlined</Button> */}
+          
      
 
     )}

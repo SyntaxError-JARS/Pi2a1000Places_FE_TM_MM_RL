@@ -6,8 +6,9 @@ import Order from "./components/order/Order";
 //import CustomerSignUp from "./components/customer/SignUp";
 import SignIn from "./components/customer/SignIn";
 import SignUp from "./components/customer/SignUp";
+import CreditCard from "./components/creditcard/CreditCard";
 //import "../logo.png"
-import Payments from "/Users/tenycemelrose/my-app/pi/src/components/creditcard/Payments.js"
+//import Payments from "/Users/tenycemelrose/my-app/pi/src/components/creditcard/Payments.js"
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
                     {/* <Route path="signOut" element={<CustomerSignOut></CustomerSignOut>} /> */}
               </Routes>
           </BrowserRouter>
-          <Payments/>
+          <CreditCard/>
       </>
   );
 }
