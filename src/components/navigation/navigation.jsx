@@ -1,13 +1,10 @@
-// import { toBePartiallyChecked } from "@testing-library/jest-dom/dist/matchers";
-// import { isLabelWithInternallyDisabledControl } from "@testing-library/user-event/dist/utils";
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navigation.css";
-//import "./logo.png";
 
 const Nav = (props) => {
     return (
-        // <linkto= 'main' className= 'logo'> 
+
         
         <div className="nav-strip"><Link to={"/home"} className="nav-link">
         <div className="nav-link-style">
@@ -41,7 +38,7 @@ const Nav = (props) => {
             </Link>
         </div>
     
-        // const Button = styled.Button
+ 
         //     // background-color: black;
         //     // color: white;
         //     // font-size: 20px;
@@ -50,10 +47,6 @@ const Nav = (props) => {
         //     // margin: 10px 0px;
         //     // cursor: PointerEvent;
         //     // ;
-
-        //     <Button onClick=(SignIn)>
-        //         Disabled Button
-        //         </Button>
 
 
     );

@@ -13,7 +13,7 @@ export function CreditCard() {
 };
  {
   const getCreditCardData =  () => {
-  axios.put("http://localhost:3000/pito1000/creditcard", creditcard);
+  axios.put("http://localhost:3000/pito1000/creditcard", update);
     console.log (response.update.creditcard)
     return true;
 }
