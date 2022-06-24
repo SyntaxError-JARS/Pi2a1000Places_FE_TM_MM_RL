@@ -3,52 +3,39 @@ import { Link } from "react-router-dom";
 import "./navigation.css";
 
 const Nav = (props) => {
-    return (
-
-        
-        <div className="nav-strip"><Link to={"/home"} className="nav-link">
+  return (
+    <div className="nav-strip">
+      <Link to={"/home"} className="nav-link">
         <div className="nav-link-style">
-            <label className="nav-label">Home</label>
+          <label className="nav-label">HOME</label>
         </div>
-        </Link>
-            <Link to={"/menu"} className="nav-link">
-                <div className="nav-link-style">
-                    <label className="nav-label">View Menu</label>
-                </div>
-                </Link>
-                <Link to={"/Order"} className="nav-link">
-                <div className="nav-link-style">
-                    <label className="nav-label">Order</label>
-                </div>
-            </Link>
-            <Link to={"/SignIn"} className="nav-link" id="middle-link">
-                <div className="nav-link-style">
-                    <label className="nav-label">Sign In</label>
-                </div>
-            </Link>
-            <Link to={"/signUp"} className="nav-link">
-                <div className="nav-link-style">
-                    <label className="nav-label">Sign Up</label>
-                </div>
-            </Link>
-            <Link to={"/logOut"} className="nav-link">
-                <div className="nav-link-style">
-                    <label className="nav-label">Log Out</label>
-                </div>
-            </Link>
+      </Link>
+      <Link to={"/menu"} className="nav-link">
+        <div className="nav-link-style">
+          <label className="nav-label">MENU</label>
         </div>
-    
- 
-        //     // background-color: black;
-        //     // color: white;
-        //     // font-size: 20px;
-        //     // padding: 10px 60px;
-        //     // border-radius: 5px;
-        //     // margin: 10px 0px;
-        //     // cursor: PointerEvent;
-        //     // ;
-
-
-    );
-    }
-export default Nav; 
+      </Link>
+      <Link to={"/SignIn"} className="nav-link" id="middle-link">
+        <div className="nav-link-style">
+          <label className="nav-label">LOG IN</label>
+        </div>
+      </Link>
+      <Link to={"/signUp"} className="nav-link">
+        <div className="nav-link-style">
+          <label className="nav-label">ORDER NOW</label>
+        </div>
+      </Link>
+      <Link to={"/creditcard"} className="nav-link">
+        <div className="nav-link-style">
+          <label className="nav-label">CREDIT PMT</label>
+        </div>
+      </Link>
+      <Link to={"/payments"} className="nav-link">
+        <div className="nav-link-style">
+          <label className="nav-label">PAYMENTS</label>
+        </div>
+      </Link>
+    </div>
+  );
+};
+export default Nav;

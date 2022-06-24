@@ -9,9 +9,7 @@ export default function Home() {
             <div className="img_contanier">
  
             {/* <button className="btn btn-primary">Sign In</button> */}
-            <></>
-            <></>
-            <></>
+
             
             </div>
         </>

@@ -1,12 +1,14 @@
 #middle-link {
-    border-left: 10px solid #000000;
-    border-right: 10px solid #000000;
+    border-left: 20px solid #000000;
+    border-right: 20px solid #000000;
 }
 
 .nav-label {
-    font-family: "helvetica";
-    font-size: 1.3em;
+    color: #BABFB7;
+    font-family: "blueberry";
+    font-size: 1.5em;
     font-weight: absolute;
+    cursor: PointerEvent;
     
 }
 
@@ -16,7 +18,7 @@
 }
 
 .nav-link:hover {
-    background: #030303;
+    background: #545454;
 }
 
 .nav-link-style {
@@ -24,19 +26,10 @@
 }
 
 .nav-strip {
-    background: #f5f5f7;
+    background: #000000;
     display: flex;
     flex: 1;
     flex-direction: row;
+    padding: 20px 20px;
 
-    /* .nav-button {
-        background: #000000;
-        color: #FFFFFF;
-        font-size: 20px;
-        padding: 30px 60px;
-        border-radius: 5px;
-        margin: 30px 0px;
-        cursor: PointerEvent;
-        ;
-    } */
 }

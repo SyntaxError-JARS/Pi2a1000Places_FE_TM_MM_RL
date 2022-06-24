@@ -1,27 +1,32 @@
-/* @import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900)
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300,500,600,700,900)
+
 
 .container
-    display: flex
-    align-items: center
-    justify-content: center
-    height: 100vh
-    flex-direction: column
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    box-sizing: border-box;
 
-*
-    box-sizing: border-box
+}
     
-html
-    background-color: #171A3D
-    font-family: 'Lato', sans-serif
+/* html
+
+    background-color: #171A3D;
+    font-family: 'lato';
+
 
 .price
-    h1
-        font-weight: 300
-        color: #18C2C0
-        letter-spacing: 2px
 
-.card
+    h1
+        font-weight: 300;
+        color: #18C2C0;
+        letter-spacing: 2px;
+
+
+
+/ .card
     margin-top: 30px
     margin-bottom: 30px
     width: 520px
@@ -43,7 +48,7 @@ html
     .cardholder, .number, .details
         background-color: #242852
         
-//////////////////// ROW ONE & TWO
+
 .paypal, .credit
     .left, .right
         position: relative
@@ -123,7 +128,7 @@ input[type=radio]:checked ~ .radio
             
 #cardnumber, #cardnumber::placeholder
     letter-spacing: 2px
-///////////////////// DETAILS
+
 .details
     .left, .right
         position: relative
@@ -180,7 +185,6 @@ input[type=radio]:checked ~ .radio
             border: 2px solid #18C2C0
             border-radius: 50%
 
-///////////////////// Button
 .button button
     font-size: 1.2rem
     font-weight: 400
@@ -199,4 +203,4 @@ input[type=radio]:checked ~ .radio
         background-color: #139b99
     i
         font-size: 1.2rem
-        margin-right: 5px */
+        margin-right: 5px */ 

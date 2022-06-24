@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/home";
 import Nav from './components/navigation/navigation';
-import ViewMenu from "./components/menu/ViewMenu";
-import Order from "./components/order/Order";
+import Menu from "./components/menu/menu";
 import SignIn from "./components/customer/SignIn";
 import SignUp from "./components/customer/SignUp";
+import Creditcard from "./components/creditcard/CreditCard";
 
 
 function App() {
@@ -15,14 +15,14 @@ function App() {
               <Nav />
               <Routes>
                     <Route path="/Home" element={<Home />} />
-                    <Route path="/Order" element={<Order />} />
-                    <Route path="/menu" element={<ViewMenu />} />
+                    <Route path="/Menu" element={<Menu />} />
                     <Route exact path="/" element={<Home />} />
                     <Route path="/SignIn" element={<SignIn />} />
                     <Route path="/signUp" element={<SignUp />} />
-                
+                    <Route path="/CreditCard" element={<Creditcard/>} />
               </Routes>
           </BrowserRouter>
+        
         
       </>
   );
